@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet var tableview: UITableView!
-    var cellIdentifiers: [String] = ["imagecell", "segmentcell"]
+    var cellIdentifiers: [String] = ["imagecell", "segmentcell", "progresscell", "slidercell", "steppercell", "switchcell"]
     
     
     override func viewDidLoad() {
@@ -25,7 +25,14 @@ class ViewController: UIViewController {
         
         let segmentcell = UINib(nibName: "SegmentTableViewCell", bundle: nil)
         tableview.register(segmentcell, forCellReuseIdentifier: "segmentcell")
-        
+        let progresscell = UINib(nibName: "ProgressTableViewCell", bundle: nil)
+        tableview.register(progresscell, forCellReuseIdentifier: "progresscell")
+        let slidercell = UINib(nibName: "SliderTableViewCell", bundle: nil)
+        tableview.register(slidercell, forCellReuseIdentifier: "slidercell")
+        let steppercell = UINib(nibName: "StepperTableViewCell", bundle: nil)
+        tableview.register(steppercell, forCellReuseIdentifier: "steppercell")
+        let switchcell = UINib(nibName: "SwitchTableViewCell", bundle: nil)
+        tableview.register(switchcell, forCellReuseIdentifier: "switchcell")
         
     }
     
