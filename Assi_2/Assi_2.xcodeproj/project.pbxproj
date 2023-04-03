@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		410D31A529DB28E0001632CD /* ProgressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410D31A329DB28E0001632CD /* ProgressTableViewCell.swift */; };
+		410D31A629DB28E0001632CD /* ProgressTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 410D31A429DB28E0001632CD /* ProgressTableViewCell.xib */; };
 		412B6E5129D4A1BD00256F5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412B6E5029D4A1BD00256F5B /* AppDelegate.swift */; };
 		412B6E5329D4A1BD00256F5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412B6E5229D4A1BD00256F5B /* SceneDelegate.swift */; };
 		412B6E5529D4A1BD00256F5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412B6E5429D4A1BD00256F5B /* ViewController.swift */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		410D31A329DB28E0001632CD /* ProgressTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressTableViewCell.swift; sourceTree = "<group>"; };
+		410D31A429DB28E0001632CD /* ProgressTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProgressTableViewCell.xib; sourceTree = "<group>"; };
 		412B6E4D29D4A1BD00256F5B /* Assi_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assi_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		412B6E5029D4A1BD00256F5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		412B6E5229D4A1BD00256F5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +122,8 @@
 				412B6E8129D4A3CB00256F5B /* ImageTableView.xib */,
 				412B6E8429D4A41D00256F5B /* SegmentTableViewCell.swift */,
 				412B6E8529D4A41D00256F5B /* SegmentTableViewCell.xib */,
+				410D31A329DB28E0001632CD /* ProgressTableViewCell.swift */,
+				410D31A429DB28E0001632CD /* ProgressTableViewCell.xib */,
 			);
 			path = Assi_2;
 			sourceTree = "<group>";
@@ -243,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				410D31A629DB28E0001632CD /* ProgressTableViewCell.xib in Resources */,
 				412B6E5D29D4A1C000256F5B /* LaunchScreen.storyboard in Resources */,
 				412B6E8329D4A3CB00256F5B /* ImageTableView.xib in Resources */,
 				412B6E5A29D4A1C000256F5B /* Assets.xcassets in Resources */,
@@ -274,6 +281,7 @@
 			files = (
 				412B6E8629D4A41D00256F5B /* SegmentTableViewCell.swift in Sources */,
 				412B6E5529D4A1BD00256F5B /* ViewController.swift in Sources */,
+				410D31A529DB28E0001632CD /* ProgressTableViewCell.swift in Sources */,
 				412B6E8229D4A3CB00256F5B /* ImageTableView.swift in Sources */,
 				412B6E5129D4A1BD00256F5B /* AppDelegate.swift in Sources */,
 				412B6E5329D4A1BD00256F5B /* SceneDelegate.swift in Sources */,
