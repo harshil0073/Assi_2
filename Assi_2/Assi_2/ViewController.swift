@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet var tableview: UITableView!
-    var cellIdentifiers: [String] = ["imagecell", "segmentcell", "progresscell", "slidercell", "steppercell", "switchcell"]
+    var cellIdentifiers: [String] = ["codecell", "imagecell", "segmentcell", "progresscell", "slidercell", "steppercell", "switchcell", "textcell"]
     
     
     override func viewDidLoad() {
@@ -19,7 +19,8 @@ class ViewController: UIViewController {
         
         tableview.delegate = self
         tableview.dataSource = self
-        
+        let codecell = UINib(nibName: "CodeTableViewCell", bundle: nil)
+        tableview.register(codecell, forCellReuseIdentifier: "codecell")
         let imagecell = UINib(nibName: "ImageTableViewCell", bundle:nil)
         tableview.register(imagecell, forCellReuseIdentifier: "imagecell")
         
@@ -33,6 +34,9 @@ class ViewController: UIViewController {
         tableview.register(steppercell, forCellReuseIdentifier: "steppercell")
         let switchcell = UINib(nibName: "SwitchTableViewCell", bundle: nil)
         tableview.register(switchcell, forCellReuseIdentifier: "switchcell")
+        let textcell = UINib(nibName: "TextTableViewCell", bundle: nil)
+        tableview.register(textcell, forCellReuseIdentifier: "textcell")
+        
         
     }
     
